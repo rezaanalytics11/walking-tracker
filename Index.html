@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>ثبت پیاده روی</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<h1>ثبت ساعت پیاده روی</h1>
+
+<input type="date" id="date">
+
+<input
+type="number"
+id="hours"
+step="0.5"
+placeholder="چند ساعت؟">
+
+<button onclick="saveWalk()">
+ثبت
+</button>
+
+<hr>
+
+<canvas id="myChart"></canvas>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
