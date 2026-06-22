@@ -2,7 +2,7 @@ const supabaseUrl =
 "https://fazwcbgczmqrtaergpcc.supabase.co"
 
 const supabaseKey =
-"YOUR_ANON_KEY"
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZhendjYmdjem1xcnRhZXJncGNjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIxMjA2MzMsImV4cCI6MjA5NzY5NjYzM30.ndlVaXtFcKEoFY0JXx2gZWm1iM9T-XbSXgCfG4YMwd0"
 
 const client =
 supabase.createClient(
