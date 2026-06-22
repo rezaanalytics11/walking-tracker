@@ -1,5 +1,5 @@
 const supabaseUrl =
-"https://YOURPROJECT.supabase.co"
+"https://fazwcbgczmqrtaergpcc.supabase.co"
 
 const supabaseKey =
 "YOUR_ANON_KEY"
